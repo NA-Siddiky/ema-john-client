@@ -9,7 +9,7 @@ const Inventory = () => {
 
         const product = {};
 
-        fetch('http://localhost:5000/addProduct', {
+        fetch('https://desolate-coast-45107.herokuapp.com/addProduct', {
 
             method: 'POST',
             headers: {
